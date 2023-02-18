@@ -11,6 +11,9 @@ class Cars:
 car1=Cars('honda', 'city')
 
 
+#car1.attribure_name
+#car1.action_name()
+
 #accessing attributes outside the class
 car1.carname = 'Honda'
 print(car1.carname)
