@@ -12,6 +12,7 @@ class NewClass():
 
 clas1=NewClass('suleman')
 
+# the class variable is only accessed by the class itself and the objects
 print(NewClass.Variable)
 print(clas1.__dict__)
 NewClass.get_classVariable()
