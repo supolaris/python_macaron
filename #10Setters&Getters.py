@@ -6,7 +6,7 @@ class Employees:
         self.myId = id
 
     def getName(self):
-        print("the name is: ", self.myName, " and the roll number is: " , self.myId)
+        print("the name is: ", self.myName, " and the roll number is: ", self.myId)
 
 e1 = Employees()
 e2 = Employees()
