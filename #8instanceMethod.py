@@ -7,17 +7,17 @@ class MySelf:
         self.myRoll = roll
 
     def getUpdate(self):
-        self.myName = print(input("Enter the new name: "))
-        self.myRoll = print(int(input("Enter the new roll number: ")))
+        self.myName = (input("Enter the new name: "))
+        self.myRoll = (int(input("Enter the new roll number: ")))
 
     def diplay(self):
-        print(self.myName, self.myRoll)
+        print("Your new name is : " + self.myName + "Your new roll number is: " + str(self.myRoll))
 
 nn = ("Your name is Suleman")
 bb = ("Your roll number is 627")
 self1 = MySelf(nn, bb)
-
-self1.diplay()
-self1.getUpdate()
 print(self1.__dict__)
+self1.getUpdate()
+self1.diplay()
+
 
