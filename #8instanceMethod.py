@@ -1,7 +1,6 @@
 print("The instance method")
 
 class MySelf:
-
     def __init__(self, name, roll):
         self.myName = name
         self.myRoll = roll
@@ -12,6 +11,10 @@ class MySelf:
 
     def diplay(self):
         print("Your new name is : " + self.myName + "Your new roll number is: " + str(self.myRoll))
+
+    @classmethod
+    def get_classVAr(cls):
+        classVar = input("Enter the new value")
 
 nn = ("Your name is Suleman")
 bb = ("Your roll number is 627")
