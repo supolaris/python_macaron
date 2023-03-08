@@ -11,7 +11,7 @@ class Student(Teacher):
     def __init__(self, name, clas):
         super().__init__(name, clas)
         super().newFun()
-        print("this is student")
+        print("this is student here")
 
 s1 = Student('ali',  632)
 print(s1.__dict__)
