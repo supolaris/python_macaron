@@ -1,4 +1,4 @@
-class Teacher:
+class Teacher(object):
     def __init__(self, name, clas):
         self.tname = name
         self.tclass = clas
