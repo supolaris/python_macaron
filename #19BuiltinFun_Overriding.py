@@ -1,4 +1,4 @@
-class myClass:
+class MyClass:
     def __init__(self, name, dept, loc):
         self.cname = name
         self.cdept = dept
